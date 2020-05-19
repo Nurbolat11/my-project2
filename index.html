@@ -1,0 +1,318 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Идеальный отдых</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>	
+</head>
+<body id="home">
+	<section >
+		<div class="top">
+			<div  class="logo">
+				<img src="images/logo1.png" alt="picture">
+			</div>
+			<div  class="logo_text">				
+				<p>Идеальный<br> отдых</p>
+				<p>Туристическая фирма</p>
+			</div>
+			<nav>
+				<ul class="slide">
+					<li><a href="javascript://0" onclick="Scroll('#home')">Главная</a></li>
+					<li><a href="javascript://0" onclick="Scroll('#direction')">Направления</a></li>
+					<li><a href="javascript://0" onclick="Scroll('#gallery')">Галерея</a></li>
+					<li><a href="javascript://0" onclick="Scroll('#articles')">Статьи</a></li>
+					<li><a href="javascript://0" onclick="Scroll('#contacts')">Контакты</a></li>
+				</ul>
+				<div id="smallMenu" class="menu">
+					<div class="line1"></div>
+					<div id="cross2" class="line2"></div>
+					<div id="cross3" class="line3"></div>					
+					<div class="line4"></div>
+				</div>
+			</nav>			
+		</div>
+		<div class="clear"></div>	
+	</section>
+	<header>
+		<h1>Выбирая нас, ваш отдых проидет гладко, замечательно и незабываемо.</h1>
+		<h2>Доверьте свой отпуск профессионалам.</h2>
+		<div class="dotnav">
+				<div class="dot" onclick="slideClick(1)"></div>
+				<div class="dot" onclick="slideClick(2)"></div>
+				<div class="dot" onclick="slideClick(3)"></div>
+				<div class="dot" onclick="slideClick(4)"></div>
+				<div class="dot" onclick="slideClick(5)"></div>
+		</div>
+	</header>
+	<section id="direction">
+	<div class="container">
+	<h3>Популярные направления</h3>
+		<div class="container1">			
+			<div class="block1">
+				<h4>Европа</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/fr.png" alt="picture">Франция <span> от 673 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/it.png" alt="picture">Италия <span> от 652 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/es.png" alt="picture">Испания<span> от 596 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/gr.png" alt="picture">Греция<span> от 578 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/cz.png" alt="picture">Чехия<span> от 499 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/bg.png" alt="picture">Болгария<span> от 472 000 тг</span></a></div>
+				</div>
+			</div>
+			<div class="block2">
+				<h4>Азия</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/tr.png" alt="picture">Турция<span> от 379 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/th.png" alt="picture">Тайланд<span> от 449 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/vn.png" alt="picture">Вьетнам<span> от 489 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/in.png" alt="picture">Индия<span> от 410 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/id.png" alt="picture">Индонезия<span> от 515 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/ae.png" alt="picture">ОАЭ<span> от 520 000 тг</span></a></div>
+				</div>
+			</div>
+			<div class="block3">
+				<h4>Африка</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/eg.png" alt="picture">Египет<span> от 456 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/dz.png" alt="picture">Алжир<span> от 478 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/ma.png" alt="picture">Марокко<span> от 550 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/tn.png" alt="picture">Тунис<span> от 499 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/mg.png" alt="picture">Мадагаскар<span> от 625 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/za.png" alt="picture">ЮАР<span> от 580 000 тг</span></a></div>
+				</div>
+			</div>		
+			<div class="block4">
+				<h4>Северная Америка и Австралия</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/us.png" alt="picture">США<span> от 750 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/mx.png" alt="picture">Мексика<span> 690 673 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/ca.png" alt="picture">Канада<span> от 640 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/cu.png" alt="picture">Куба<span> от 599 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/do.png" alt="picture">Доминикана<span> от 675 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/au.png" alt="picture">Австралия<span> от 900 000 тг</span></a></div>
+				</div>
+			</div>
+			<div class="block5">
+				<h4>Южная Америка</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/ar.png" alt="picture">Аргентина<span> от 712 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/br.png" alt="picture">Бразилия<span> от 690 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/uy.png" alt="picture">Уругвай<span> от 632 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/cl.png" alt="picture">Чили<span> от 675 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/bo.png" alt="picture">Боливия<span> от 600 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/pe.png" alt="picture">Перу<span> от 605 000 тг</span></a></div>
+				</div>
+			</div>
+			<div class="block6">
+				<h4>Страны СНГ</h4>
+				<div class="continent">
+					<div class="country"><a href="#"><img src="flags-mini/ge.png" alt="picture">Грузия<span> от 190 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/ru.png" alt="picture">Россия<span> от 140 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/az.png" alt="picture">Азербайджан<span> от 150 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/am.png" alt="picture">Армения<span> от 135 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/lv.png" alt="picture">Латвия<span> от 210 000 тг</span></a></div>
+					<div class="country"><a href="#"><img src="flags-mini/kg.png" alt="picture">Киргизия<span> от 100 000 тг</span></a></div>
+				</div>
+			</div>		
+		</div>
+	</div>
+	</section>
+	<section id="gallery">	
+		<div class="gallery_container">
+		<h3>Наша галерея</h3>
+		<div class="gallery1">
+			<a data-fancybox="gallery" href="gallery/photo11.jpg"><img src="gallery/photo11.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo12.jpg"><img src="gallery/photo12.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo13.jpg"><img src="gallery/photo13.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo14.jpg"><img src="gallery/photo14.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo15.jpg"><img src="gallery/photo15.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo16.jpg"><img src="gallery/photo16.jpg" alt="photo"></a>
+		</div>
+		<div class="gallery2">
+			<a data-fancybox="gallery" href="gallery/photo17.jpg"><img src="gallery/photo17.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo18.jpg"><img src="gallery/photo18.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo19.jpg"><img src="gallery/photo19.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo20.jpg"><img src="gallery/photo20.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo21.jpg"><img src="gallery/photo21.jpg" alt="photo"></a>
+			<a data-fancybox="gallery" href="gallery/photo22.jpg"><img src="gallery/photo22.jpg" alt="photo"></a>		
+		</div>
+		</div>
+	</section>	
+	<section id="articles">
+		<div class="articles">
+			<div class="article">
+			<h3>Полезные и интересные статьи</h3>
+				<div class="box1">
+					<h4>Подбор тура мечты: 5 вещей, которые важно знать при покупке горящей путевки</h4>
+					<img class="img1" src="images/imgarticle1.jpg" alt="picture">
+					<p>Кто не мечтает отправиться в увлекательное путешествие, которое принесет массу впечатлений? Можно планировать поездку за полгода - томиться в радостном предвкушении, а можно и наоборот – выбрать горящую путевку, спешно собрать чемодан и улететь за моря. Но у такого способа есть и свои нюансы Итак, раскрываем важные подробности про подбор тура, который «горит».</p>
+					<h5 class="view">Как распознать горящую путевку</h5>
+					<p class="view">Первая, и самая главная, особенность – цена. Такой тур гораздо выгоднее: его стоимость снижена вдвое, а то и втрое. Важный момент заключается и в том, что оплатить такую путевку придется сразу в полном объеме. Подобрать тур поможет тревел-менеджер, который прекрасно ориентируется в горящих предложениях.</p>
+					<h5 class="view">Откуда берутся горящие путевки?</h5>
+					<p class="view">Тут всё просто: в начале каждого сезона туроператор формирует большой пул путевок, но никогда не знает, какое их количество будет продано. С приближением даты вылета может выясниться, что путевка не продана и  «горит». Это и есть шанс для туриста купить горящий тур.</p>
+					<h5 class="view">Горящая путевка или раннее бронирование - что выгоднее</h5>
+					<p class="view">Раннее бронирование – решение для людей, которые любят строить планы. А вот горящее предложение подразумевает умение «впрыгивать в последний вагон». Спонтанный выбор, некоторая доля авантюризма  – и цель достигнута!</p>
+					<h5 class="view">Когда и куда можно путешествовать по горящей путевке?</h5>
+					<p class="view">Популярные направления (Турция, Египет, Болгария, горнолыжные курорты в зимний период) – сюда можно словить недорогой тур не в высокий сезон. Возможны температурные и погодные сюрпризы – может быть слишком жарко или дождливо. Поэтому нужно заранее изучить вопрос, а уже после найти тур. Сделать то и другое можно на нашем сайте. А если потребуется – еще и получить развернутую консультацию.</p>
+					<h5 class="view">Когда нет смысла ловить горящие туры?</h5>
+					<p class="view">Майские праздники, Новый год, Пасха, школьные каникулы… Реклама «горящих» туров в эти дни – маркетинговый ход. Сложно удешевить поездку, когда в самолетах нет свободных мест.</p>
+					<h5 class="view">Как купить горящий тур и не прогореть:</h5>
+					<!-- <p class="view"> -->
+						<ol class="view">
+							<li>Не покупайте его у неизвестных турфирм. Обращайтесь в проверенные компании.</li>
+							<li>Прежде чем начать поиск тура, продумайте вопрос виз, если рассматриваете европейские страны или другие из тех, которые требуют отметки в паспорте.</li>
+							<li>Изучите правила пребывания в стране – могут понадобиться обязательные прививки.</li>
+							<li>Будьте готовы собрать вещи за час – это важно.</li>
+							<li>Не забывайте о медстраховке.</li>
+						</ol>
+					<!-- </p> -->
+					<h5 class="view">Приятного отдыха!</h5>
+					<button id="show">Развернуть</button><button id="unshow">Свернуть</button>
+				</div>
+				<div class="box2">
+					<h4>ТОП-7 романтических мест для проведения медового месяца</h4>
+					<img class="img2" src="images/imgarticle2.jpg" alt="picture">
+					<p>Предсвадебные хлопоты не только приятны, но и в некоторой мере утомительны. Именно поэтому существует традиция проведения первого совместного отдыха молодоженов после церемонии. Конечно, такое путешествие должно остаться в памяти супругов на долгие годы и быть необычайно романтичным. Потому, организовывая свадьбу, жених и невеста параллельно планируют и свой медовый месяц.
+					
+					Предлагаем вашему вниманию топ-7 самых романтических мест для свадебного тура</p>
+					<h5 class="view2">1. Париж</h5>
+					<p class="view2">Это город любви, романтики и европейской изысканности. В Париже молодожены смогут почувствовать себя героями романтических фильмов и книг. Прогулки по Елисейским полям и Венсенскому лесу с любимым, посещение садов Версаля, знаменитый Лувр и поцелуи под Триумфальной аркой! Сказочный Монмарт и признание в любви на Эйфелевой башне – здесь есть, где погулять и на что посмотреть. Влюбленные пары могут провести романтический ужин при свечах, с вином и необычными блюдами практически в каждом ресторане города. Ведь парижане знают толк в романтике!
+
+					Во Франции стоит посетить Лазурный берег (Средиземное море) в Сан-Ремо или Монте-Карло. Здесь красиво, весело и шумно до самого утра. Монте-Карло славится своими молодежными дискотеками и коктейльными барами на пляже.</p>
+					<h5 class="view2">2. Венеция</h5>
+					<p class="view2">Венеция – это романтика 117 островов, множество каналов и мостов. Что может быть прекрасней празднования начала семейной жизни в гондоле, плывущей по Большому каналу Венеции! Здесь можно покормить голубей на площади святого Марка. На ней расположены старинные здания разных эпох, а так же высокая колокольня, с которой видна не только вся Венеция, но и далекие заснеженные горы.
+
+					Медовый месяц в Венеции вряд ли придется по вкусу любителям клубов и танцев до утра. Этот город для влюбленных, предпочитающих провести вечер вдвоем в ресторане с шикарным видом.</p>
+					<h5 class="view2">3. Верона</h5>
+					<p class="view2">Этот небольшой итальянский городок будто создан для любви. Каждая узкая улочка здесь пропитана Шекспировской трагедией Ромео и Джульетты.
+
+					Знаменитый балкон и статуя Джульетты прекрасно вписываются в архитектуру города. Здесь влюбленные могут отправить друг другу письма через специальный почтовый ящик. Верона – замечательное место для фотосессий в стиле «ЛавСтори» и романтических прогулок у оливковых деревьев, посещения оперы и милых ресторанов.
+
+					С 12 по 15 февраля в городе проводится фестиваль для влюбленных Verona in Love. В это время здесь масса представлений, открыты сувенирные лавки и множество новобрачных.</p>
+					<h5 class="view2">4. Мальта</h5>
+					<p class="view2">Ну а для тех, у кого отдых ассоциируется с солнцем, морем и пляжем подойдет Мальта. Это экзотичный остров в Средиземном море, где с октября по май тепло и солнечно.
+
+					Пляжный отдых можно сочетать с посещением пещеры, где по приданию прекрасная Калипсо скрывала в плену Одиссея, с прогулкой-экскурсией вдоль храма в честь богини Аштроз или вдоль древних металлических святилищ.
+
+					Природа острова живописна. Голубой грот, куда можно добраться на катере, отличается необычайно красивым синим морем и множеством скальных пещер. Незабываемый вид открывается и с мальтийских утесов южного побережья.</p>
+					<h5 class="view2">5. Кипр</h5>
+					<p class="view2">Это еще один средиземноморский остров, собственно на его-то берег и вышла богиня любви Афродита. Что может быть романтичнее посещения Кипра на медовый месяц?
+
+					Здесь супруги могут полюбоваться памятниками архитектуры далеких античных времен, побывать на раскопках руин древности, провести романтическую фотосессию у скалы Афродиты и на природном мостике любви на Капо Греко. А вечер провести в ресторане, отведав местное вино и блюда из морепродуктов, или же на пляжной дискотеке, танцуя босиком на белом песке.</p>
+					<h5 class="view2">6. Доминикана</h5>
+					<p class="view2">Доступное место среди Карибских островов. Непревзойденная экзотика вместе с шикарными отелями делает Доминикану раем для молодоженов.
+
+					Коралловые рифы, бирюзовый океан и белый песок – хорошее место для релаксации на пляже. Здесь можно посетить дворец сына Христофора Колумбо Диего, внушительную по своим размерам крепость Осама, заповедник Лос-Айтисес с зарослями бамбука и манго. А для супругов-экстремалов – Национальный подводный парк с затонувшими кораблями.</p>
+					<h5 class="view2">7. Шри-Ланка</h5>
+					<p class="view2">Относительно недорогой курорт на Индийском океане. Это место прекрасно подойдет для активных пар. Ведь Шри-Ланка – это джунгли, горные пейзажи и руины древнего города. Конечно, здесь можно отдохнуть, лежа под кокосовой пальмой, но зачем? Ведь молодые супруги могут устроить незабываемую поездку на слоне или пешком забраться в горы для посещения храма Будды!
+
+					Молодожены выбирают это место потому, что здесь можно насладиться уединением. Ведь туристов на Шри-Ланке немного.
+
+					Чтобы полететь в путешествие, просто перейдите по этой ссылке и подбирите себе самые дешевые авиабилеты в любую из этих стран, где больше всего хотите провести медовый месяц! А подобрать себе по сходной цене хороший отель удобнее всего в этом агрегаторе или в этом - на ваш выбор.</p>
+					<button id="show2">Развернуть</button><button id="unshow2">Свернуть</button>					
+				</div>
+				<div class="box3">
+					<h4>8 городов, которые регулярно принимают за столицы</h4>
+					<img class="img3" src="images/imgarticle3.jpg" alt="picture">
+					<p>Есть города по всему миру, которые сумели стать самыми большими, самыми богатыми, лучшими из лучших в своей стране, не сумев достичь только одного - стать столицей. И поскольку эти города являются лучшими из лучших, они настолько известны, что люди часто принимают их за столицы. Вы попали в эту ловушку? Проверьте свои знания:</p>
+					<h5 class="view3">Является ли Рио-де-Жанейро столицей Бразилии?</h5>
+					<p class="view3">Если вы проводите самый большой карнавал в мире, вы не можете быть чем-то меньшим, чем столица. Легко запутаться, когда основные туристические достопримечательности Бразилии также находятся в Рио.
+
+					Однако фактическая столица Бразилии ... Бразилиа. Это город, который заменил Рио в качестве столицы в 1960 году. В настоящее время самый населенный город - это не Рио и не Бразилиа, а Сан-Паулу.</p>
+					<h5 class="view3">Является ли Сидней (или Мельбурн) столицей Австралии?</h5>
+					<p class="view3">И Сидней, и Мельбурн боролись за честь быть столицей Австралии. В результате в 1908 году Канберра получила роль компромисса.</p>
+					<h5 class="view3">Стамбул столица Турции?</h5>
+					<p class="view3">Да, это было до 1922 года, когда он был известен как Константинополь.
+
+					Фактическая столица Турции… Анкара, выбранная из-за ее центрального положения и для того, чтобы отделить светское правительство Мустафы Кемаля Ататюрка от бывшего османского владычества. Сегодня население Анкары составляет 5 миллионов человек, а в Стамбуле проживает более 14 миллионов человек.</p>
+					<h5 class="view3">Является ли Торонто (или Монреаль, или Ванкувер) столицей Канады?</h5>
+					<p class="view3">Да, Торонто был столицей объединенной провинции Канады в течение двух коротких периодов в 19 веке (1849-1852 и 1856-1858). И да, Монреаль был столицей провинции Канады (1844-1849). А Ванкувер никогда не был столицей Канады.
+
+					Фактическая столица Канады ... Оттава с населением в три раза меньше, чем самый большой город Торонто.</p>
+					<h5 class="view3">Цюрих (или Женева) столица Швейцарии?</h5>
+					<p class="view3">Возможно, вы слышали о многих городах в Швейцарии, но, скорее всего не знаете, что все они - не столица Швейцарии.
+
+					Швейцария - децентрализованная федеративная страна, в которой нет ни президента, ни премьер-министра. Таким образом, Берн является де-факто столицей, называемой федеральным городом в Швейцарии.</p>
+					<h5 class="view3">Является ли Марракеш (или Фес, или Касабланка) столицей Марокко?</h5>
+					<p class="view3">Фактически, и Марракеш, и Фес были столицами Марокко и несколько раз меняясь ролями. Со времен средневековья до начала 20-го века Марокко часто упоминалось как Королевство Марракеш. Касабланка сегодня является крупнейшим марокканским городом.
+
+					Фактическая столица Марокко ... Рабат. Его выбрали в качестве столицы французы, которые прибыли сюда в 1912 году и считали Марракеш довольно мятежным городом. Когда Марокко обрело независимость в 1956 году, король Мохаммед V решил сохранить Рабат столицей.</p>
+					<h5 class="view3">Является ли Йоханнесбург столицей Южной Африки?</h5>
+					<p class="view3">Хотя Йоханнесбург является крупнейшим городом, он не может занять ни одну из трех столичных позиций в Южной Африке (исполнительная, законодательная, судебная).
+
+					Фактические столицы Южной Африки: ... Претория (исполнительная власть), Блумфонтейн (судебная) и Кейптаун (законодательная).</p>
+					<button id="show3">Развернуть</button><button id="unshow3">Свернуть</button>
+				</div>			
+			</div>
+		</div>	
+	</section>
+	<section id="contacts">		
+		<div class="contacts">
+			<h3>Контакты</h3>
+			<div class="form_field">
+				<h4>Вы можете связаться с нами, заполнив форму</h4>
+				<form method="POST">
+					<p><input type="text" name="name" placeholder="Имя"></p>
+					<p><input type="email" name="email" placeholder="Email"></p>					
+					<p><textarea name="message" placeholder="Ваше сообщение"></textarea></p>
+					<p><input type="submit" name="submit" value="ОТПРАВИТЬ"></p>
+				</form>
+			</div>		
+		</div>
+	</section>
+	<footer>
+		<div class="adress">
+			<h3>Наши адреса</h3>
+			<div class="adresses">
+				<div class="footer_logo">
+					<div  class="logo2">
+				<img src="images/logo1.png" alt="picture">
+			</div>
+			<div  class="logo_text2">				
+				<p>Идеальный<br> отдых</p>
+				<p>Туристическая фирма</p>
+			</div>
+				</div>
+				<div class="adress1">
+					<p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></p><p>г.Нур-султан,<br>
+					ул.Желтоксан,д.50, офис 101
+					</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>+7(717)-252-63-85</p>
+				</div>
+				<div class="adress1">
+					<p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></p><p>г.Алматы,<br>
+					пр.Сейфулина,д.117, офис 215
+					</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>+7(727)-269-74-37</p>
+				</div>
+				<div class="adress1">
+					<p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></p><p>г.Павлодар,<br>
+					ул.Ак.Бектурова,д.18, офис 61
+					</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>+7(718)-220-06-18</p>
+				</div>
+				
+				<div class="icons">
+						<a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>						
+						<a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="https://vk.com/" target="blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						<a href="https://www.whatsapp.com/" target="blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright">
+				<p>ТОО «Идеальный отдых» Номер ТА-438 в государственном электронном реестре турагентств от 24 августа 2017 года. Юридический адрес: г.Алматы, пр. Достык 42/1<br>
+				Сайт не является публичной офертой</p>
+				<p class="last">Copyright © 2017–2019 IdealRest.kz™. Все права защищены.</p>
+			</div>
+		</div>
+	</footer>		
+</body>
+</html>
